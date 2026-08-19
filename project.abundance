@@ -1,13 +1,41 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-46",
-    "name": "vec.Z",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Unitless",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-46",
+  "name": "vec.Z",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-47",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Code",
+      "x": 0.45182291666666663,
+      "y": 0.40571428571428575,
+      "uniqueID": "id-49",
+      "interpreterVersion": 1,
+      "code": "// edges.inShape\n\nfunction run() {\n  return [0, 1, 0]\n}",
+      "compiledCode": "\"use strict\";\n// edges.inShape\nfunction run() {\n    return [0, 1, 0];\n}\n"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-49",
+      "ap2ID": "id-47"
+    }
+  ],
+  "unitsKey": "Unitless",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }

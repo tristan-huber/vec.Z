@@ -24,8 +24,8 @@
       "y": 0.40571428571428575,
       "uniqueID": "id-49",
       "interpreterVersion": 1,
-      "code": "// edges.inShape\n\nfunction run() {\n  return [0, 1, 0]\n}",
-      "compiledCode": "\"use strict\";\n// edges.inShape\nfunction run() {\n    return [0, 1, 0];\n}\n"
+      "code": "// edges.inShape\n\nfunction run() {\n  return [0, 0, 1]\n}",
+      "compiledCode": "\"use strict\";\n// edges.inShape\nfunction run() {\n    return [0, 0, 1];\n}\n"
     }
   ],
   "allConnectors": [
